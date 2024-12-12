@@ -1,0 +1,133 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://th.bing.com/th/id/OIP.6WrCfxeCg30tfe9h5d7koQHaEK?w=294&h=180&c=7&r=0&o=5&pid=1.7');
+    margin: 0;
+    padding: 0; 
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e60a95;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 2px;
+    width: 300px;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #15c5d1;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.header-links a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: white;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #2874f0;
+}
+
+/* Product Section */
+.product-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: white;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+    width: 90%;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.product-card img {
+    width: 70%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.product-card p {
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.product-card button {
+    padding: 8px 12px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #e64a19;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e60a95;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
